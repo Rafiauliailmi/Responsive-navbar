@@ -1,0 +1,34 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.navbar {
+    height: 10vh;
+    width: 100%;
+    background-color: #14213d;
+    text-decoration: none;
+    color: #dadada;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5em;
+}
+.navbar .fa-bars {
+    display: none;
+}
+a {
+    text-decoration: none;
+    color: #dadada;
+    align-items: center;
+    margin: 0 20px;
+}
+@media (max-width: 600px) {
+    .right a {
+        display: none;
+    }
+    .navbar .fa-bars {
+        display: inline;
+    }
+}
